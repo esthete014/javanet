@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.task1.HelloController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Pane fx:id="game_scene" prefHeight="500.0" prefWidth="800.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1b1b1b" height="18.0" layoutY="241.0" stroke="BLACK" strokeType="INSIDE" width="75.0" />
+                  <Circle fx:id="big_circle" centerX="600.0" centerY="250.0" fill="#ffee00" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="small_circle" centerX="750.0" centerY="250.0" fill="RED" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+               </children></Pane>
+            <Label fx:id="shoots_label" layoutX="645.0" layoutY="551.0" prefHeight="25.0" prefWidth="135.0" text="SHOOTS: " />
+            <Label fx:id="score_label" layoutX="645.0" layoutY="517.0" prefHeight="25.0" prefWidth="135.0" text="SCORE: " />
+            <Button fx:id="start_btn" layoutX="14.0" layoutY="510.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="121.0" text="START" />
+            <Button fx:id="pause_btn" layoutX="147.0" layoutY="510.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="121.0" text="PAUSE" />
+            <Button fx:id="shoot_btn" layoutX="279.0" layoutY="510.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="359.0" text="SHOOT" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
